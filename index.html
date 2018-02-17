@@ -31,7 +31,20 @@
             Hello, I'm a singing teacher and performer based in the North East.
           </div>
           <div class="HeaderCta">
-            <div class="HeaderCtaBtn"><a href="mailto:hello@catherinenorthorpe.co.uk">Email Me</a></div>
+            <div class="HeaderCtaBtn">
+              <a href="mailto:hello@catherinenorthorpe.co.uk" onClick="emailCtaClick">Email Me</a>
+            </div>
+
+            <script type="text/javascript">
+              function emailCtaClick() {
+                ga('send', 'event', {
+                  eventCategory: 'Email Link',
+                  eventAction: 'Click',
+                  eventLabel: 'Email Link – Home'
+                });
+              }
+            </script>
+
             <div class="HeaderCtaSideText">for lessons and performances</div>
           </div>
         </div>
