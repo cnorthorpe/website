@@ -32,15 +32,14 @@
           </div>
           <div class="HeaderCta">
             <div class="HeaderCtaBtn">
-              <a href="mailto:hello@catherinenorthorpe.co.uk" onClick="emailCtaClick();">Email Me</a>
+              <a href="mailto:hello@catherinenorthorpe.co.uk" onClick="emailCtaClick()">Email Me</a>
             </div>
 
             <script type="text/javascript">
               function emailCtaClick() {
-                ga('send', 'event', {
-                  eventCategory: 'Email Link',
-                  eventAction: 'Click',
-                  eventLabel: 'Email Link – Home'
+                gtag('send', 'Click', {
+                  'event_category': 'Email Link',
+                  'event_label': 'Email Link - Home - Email Me Button'
                 });
               }
             </script>
