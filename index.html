@@ -32,16 +32,8 @@
           </div>
           <div class="HeaderCta">
             <div class="HeaderCtaBtn">
-              <a href="mailto:hello@catherinenorthorpe.co.uk" onClick="emailCtaClick()">Email Me</a>
+              <a href="mailto:hello@catherinenorthorpe.co.uk" onClick="gtag('event', 'Click', { event_category: 'Email Link', event_label: 'Email Link - Home - Email Me Button'});">Email Me</a>
             </div>
-            <script type="text/javascript">
-              function emailCtaClick() {
-                gtag('send', 'Click', {
-                  'event_category': 'Email Link',
-                  'event_label': 'Email Link - Home - Email Me Button'
-                });
-              }
-            </script>
             <div class="HeaderCtaSideText">for lessons and performances</div>
           </div>
         </div>
