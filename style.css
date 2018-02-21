@@ -28,6 +28,7 @@ body{
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+  width: 100%;
 }
 
 .HeaderName{
@@ -47,6 +48,17 @@ body{
   font-size: 2em;
   line-height: 1.4em;
   color: #585151;
+}
+
+@media screen and (min-width: 980px) {
+  .HeaderContent{
+    display: block;
+    max-width: 920px;
+    margin: 0 auto;
+  }
+  .HeaderStrapline{
+    font-size: 3.2em;
+  }
 }
 
 .HeaderCta{
@@ -77,4 +89,42 @@ body{
   margin-left: 10px;
   font-size: 20px;
   color: #ccbdbd;
+}
+
+/* BIO */
+
+.SectionBioWrapper{
+  margin: -160px auto 0;
+  display: block;
+  max-width: 960px;
+  padding-bottom: 100px;
+  overflow: auto;
+}
+
+.SectionBioImage{
+  width: 100%;
+  max-width: 400px;
+  float: right;
+}
+
+.SectionBioImageImg{
+  width: 100%;
+  height: auto;
+}
+
+.SectionBioTracks{
+  float: left;
+  max-width: 440px;
+  width: 100%;
+  padding-top: 160px;
+}
+
+.SectionBioHeader{
+  font-family: 'Cormorant Garamond', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 36px;
+  letter-spacing: -0.1pt;
+  color: #585151;
+  font-weight: 500;
 }
