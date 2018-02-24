@@ -57,7 +57,7 @@ body{
     margin: 0 auto;
   }
   .HeaderStrapline{
-    font-size: 3.2em;
+    font-size: 2.5em;
   }
 }
 
@@ -127,4 +127,15 @@ body{
   letter-spacing: -0.1pt;
   color: #585151;
   font-weight: 500;
+}
+
+.ComingSoon{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5pt;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #b19b9b;
 }
