@@ -206,11 +206,20 @@ body{
   .HeaderCta{
     margin-top: 30px;
   }
-
+  .HeaderCtaBtn{
+    width: 100%;
+    display: block;
+  }
+  .HeaderCtaBtn a{
+    font-size: 13px;
+    display: block;
+    text-align: center;
+  }
   .HeaderCtaSideText{
     display: block;
     margin-top: 15px;
     margin-left: 0;
+    text-align: center;
   }
 }
 
@@ -219,6 +228,6 @@ body{
     font-size: 13px;
   }
   .HeaderStrapline{
-    font-size: 1.18em;
+    font-size: 1.32em;
   }
 }
